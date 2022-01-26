@@ -11,7 +11,7 @@
 <distributionManagement>
   <repository>
     <id>petclinic</id>
-    <url>http://3.21.171.249:8081/repository/PetClinic//</url>
+    <url>http://3.21.171.249:8080/repository/PetClinic//</url>
      
   </repository>
 </distributionManagement>
@@ -366,7 +366,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-				<url>http://localhost:8085/manager/text</url>
+				<url>http://localhost:8080/manager/text</url>
                     <server>apache-tomcat</server>
                       <username>admin</username>
     <password>admin</password>
@@ -446,7 +446,7 @@
 <artifactId>tomcat7-maven-plugin</artifactId> 
 <version>2.2</version> 
 <configuration> 
-<url>http://localhost:8085/manager/text</url> 
+<url>http://localhost:8080/manager/text</url> 
 <server>apache-tomcat</server> 
     <username>admin</username>
     <password>admin</password>
